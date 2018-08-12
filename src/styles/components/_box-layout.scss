@@ -1,0 +1,94 @@
+.box-layout {
+  background: url('/images/bg.jpg') no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-layout__box {
+  letter-spacing: 0.1rem;
+  font-size: 1.5rem;
+  text-shadow: 0 0 1.5rem #000;
+  color: #fff;
+  padding: 10rem;
+  text-align: center;
+  border-radius: 0.3rem;
+
+  h1 {
+    padding-left: 6rem;
+    font-variant: small-caps;
+    letter-spacing: 6rem;
+    font-size: 6rem;
+    font-weight: 300;
+  }
+
+  &__phrase {
+    margin: 0 15rem;
+    box-shadow: 0 0 2rem black inset;
+    background: $blue;
+    background: -webkit-$royal-blue;
+    background: $royal-blue;
+    font-weight: 300;
+    font-variant: small-caps;
+    padding: 4rem;
+
+    p {
+      margin-bottom: 3rem;
+    }
+  }
+
+  hr {
+    margin: 3.5rem auto;
+    height: 0.5rem;
+    width: 15rem;
+    background: $orange;
+    background: -webkit-$orange-gradient;
+    background: $orange-gradient;
+    border-style: none;
+  }
+}
+
+@media screen and (max-width: 99rem) {
+  .box-layout__box h1 {
+    padding-left: 4rem;
+    letter-spacing: 4rem;
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 88rem) {
+  .box-layout__box__phrase {
+    margin: 0 7rem;
+  }
+}
+
+@media screen and (max-width: 73rem) {
+  .box-layout__box {
+    padding: 0rem;
+  }
+
+  .box-layout__box h1 {
+    padding-left: 3rem;
+    letter-spacing: 3rem;
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 30rem) {
+  .box-layout__box {
+    padding: 0rem;
+  }
+
+  .box-layout__box h1 {
+    padding-left: 2rem;
+    letter-spacing: 2rem;
+    font-size: 2.5rem;
+  }
+
+  .box-layout__box__phrase {
+    margin: 0 2rem;
+    padding: 3rem 2rem;
+  }
+}

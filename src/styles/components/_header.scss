@@ -1,0 +1,15 @@
+.header {
+  background: $lizard-gradient;
+}
+
+.header__content {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.4rem 0;
+}
+
+.header__title {
+  color: #fff;
+  text-decoration: none;
+}

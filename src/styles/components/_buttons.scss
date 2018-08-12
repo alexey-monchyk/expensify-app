@@ -1,0 +1,42 @@
+.button {
+  background: $orange;
+  background: -webkit-$orange-gradient;
+  background: $orange-gradient; 
+  box-shadow: 0.2rem 0.2rem 1rem black;
+  border-radius: 0.2rem;
+  border-style: none;
+  color: #fff;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-variant: small-caps;
+  font-size: 1.7rem;
+  font-weight: 500;
+  line-height: 1;
+  padding: 1.1rem 2.2rem;
+  text-decoration: none;
+  max-width: 20rem;
+}
+
+.button:hover {
+  box-shadow: 0 0 2rem $orange;
+}
+
+.button--secondary {
+  background: $grey;
+  background: -webkit-$lizard-gradient;
+  background: $lizard-gradient;
+
+  &:hover {
+    box-shadow: 0.2rem 0.2rem 1rem $grey;
+  }
+}
+
+.button--link {
+  background: none;
+  box-shadow: none;
+}
+
+.button--link:hover {
+  box-shadow: none;
+}
+
