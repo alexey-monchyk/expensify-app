@@ -1,7 +1,17 @@
-#Git Commands
+Hi my name is Aleksey Monchik
 
-git init - Create a new git repo
-git status - View the changes to your project code
-git add - Add files to staging area
-git commit - Creates a new commit with files from staging are
-git log - View recent commits
+That's my first app i have ever made by myself with React.
+
+If you want to check this app, go on - https://react-expensify-app-monchik.herokuapp.com/
+
+Maybe it isn't good programming but i have an honest try.
+
+#HOW TO USE THIS APP
+
+-enter to this site - https://react-expensify-app-monchik.herokuapp.com/
+
+-login with google
+
+-and write down your expenses
+
+-if you want to edit or remove your expense just click on it and you can do this
